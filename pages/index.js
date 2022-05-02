@@ -21,6 +21,7 @@ export default function Home() {
       <Header />
 
       {/* NFT Card */}
+
       <NftCard />
 
       {/* Footer */}
