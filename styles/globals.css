@@ -32,7 +32,13 @@ a {
 
 /* scroll */
 
+.scroll__snap__container{
+  scroll-snap-type: y mandatory;
+}
 
+.scroll__snap__child{
+  scroll-snap-align: start;
+}
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
